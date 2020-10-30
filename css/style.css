@@ -1,0 +1,54 @@
+html, body {
+
+margin: 0;
+
+padding: 0;
+}
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+h5,h6{
+  font-family: ABeeZee;
+}
+p{
+  font-family: Cabin;
+}
+h3{
+  font-family: Baloo;
+}
+.name{
+  text-align: center;
+}
+.progress-bar{
+  background-color: aquamarine; height: 100%;
+}
+footer{
+  width: 100%;
+  text-align: center;
+  padding: 90px 0;
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.05),rgba(40, 114, 217, 0.2));
+  background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.05)),to(rgba(40, 114, 217, 0.2)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05),rgba(40, 114, 217, 0.2));
+}
+#footer-social li{
+  display: inline-block;
+  margin-right: 40px;
+}
+#footer-social li a:link,
+#footer-social li a:visited{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #171717;
+  opacity: 0.6;
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  font-size: 150%;
+}
+  .fas{
+    color: rgba(213, 227, 255, 2.0);
+  }
